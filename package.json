@@ -1,0 +1,51 @@
+{
+  "name": "FoodieBee",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "postinstall": "npx jetify"
+  },
+  "dependencies": {
+    "@sarmad1995/react-native-content-loader": "^0.2.7",
+    "axios": "^0.18.0",
+    "clarifai": "^2.9.0",
+    "lottie-ios": "^2.5.3",
+    "lottie-react-native": "^2.5.11",
+    "moment": "^2.24.0",
+    "prop-types": "^15.6.2",
+    "react": "16.6.3",
+    "react-native": "0.58.5",
+    "react-native-animatable": "^1.3.3",
+    "react-native-camera": "^1.12.0",
+    "react-native-device-info": "^5.3.1",
+    "react-native-elements": "^0.19.1",
+    "react-native-exit-app": "^1.1.0",
+    "react-native-geocoding": "^0.4.0",
+    "react-native-google-places-autocomplete": "^1.4.0",
+    "react-native-maps": "0.26.1",
+    "react-native-picker-select": "^6.3.3",
+    "react-native-platform-touchable": "^1.1.1",
+    "react-native-select-multiple": "^2.1.0",
+    "react-native-star-rating": "^1.1.0",
+    "react-native-vector-icons": "^6.6.0",
+    "react-navigation": "^2.11.2",
+    "react-navigation-redux-helpers": "^2.0.5",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "24.1.0",
+    "jest": "24.1.0",
+    "jetifier": "^1.6.4",
+    "metro-react-native-babel-preset": "0.52.0",
+    "react-test-renderer": "16.6.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
