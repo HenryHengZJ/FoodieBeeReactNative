@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@sarmad1995/react-native-content-loader": "^0.2.7",
-    "axios": "^0.18.1",
+    "axios": "^0.21.1",
     "clarifai": "^2.9.0",
     "lottie-ios": "^2.5.3",
     "lottie-react-native": "^2.5.11",
